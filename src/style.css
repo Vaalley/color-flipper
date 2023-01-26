@@ -1,15 +1,58 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-	font-family: "Roboto", sans-serif;
-}
 
 body {
-	background-color: #f5f5f5;
+	font-family: "Roboto", sans-serif;
+	background-color: rgb(20, 20, 20);
+}
+
+.header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.color-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	background-color: #eb7532;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #f5f5f5;
+	background-color: rgb(20, 20, 20);
+	padding: 1.2em 2.8em;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+button {
+	font-size: 1em;
+	font-weight: 500;
+	padding: 1.2em 2.8em;
+	border: rgb(20, 20, 20) 3px solid;
+	border-radius: 0.5em;
+	color: #f5f5f5;
+	background-color: transparent;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+}
+
+button:hover {
+	background-color: rgb(20, 20, 20);
 }
 
 .color-1 {

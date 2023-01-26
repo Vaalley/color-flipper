@@ -6,22 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Color Flipper!</title>
 		<link rel="stylesheet" href="style.css" />
-		<link href="/dist/output.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="h-[10vh] flex justify-center items-center w-full">
+		<div class="header-container">
 			<h1 class="text-4xl font-black">
 				<span class="color-1">C</span><span class="color-2">o</span
 				><span class="color-3">l</span><span class="color-4">o</span
-				><span class="color-5">r</span> <span class="color-6">F</span
-				><span class="color-7">l</span><span class="color-8">i</span
-				><span class="color-1">p</span><span class="color-2">p</span
-				><span class="color-3">e</span><span class="color-4">r</span>
+				><span class="color-5">r Flip</span><span class="color-6">p</span
+				><span class="color-7">e</span><span class="color-8">r</span>
 			</h1>
 		</div>
-		<div class="color-flipper">
-			<h2 class="text-red-500">Background Color:</h2>
+		<div class="color-container">
+			<h2 class="text-red-500" id="background-color-hex">
+				Hex code, click to copy!
+			</h2>
 			<button class="btn">Click Me!</button>
 		</div>
+		<script src="index.js"></script>
 	</body>
 </html>

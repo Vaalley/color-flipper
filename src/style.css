@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.color-1 {
+	color: #e6261f;
+}
+
+.color-2 {
+	color: #eb7532;
+}
+
+.color-3 {
+	color: #f7d038;
+}
+
+.color-4 {
+	color: #a3e048;
+}
+
+.color-5 {
+	color: #49da9a;
+}
+
+.color-6 {
+	color: #34bbe6;
+}
+
+.color-7 {
+	color: #4355db;
+}
+
+.color-8 {
+	color: #d23be7;
+}
